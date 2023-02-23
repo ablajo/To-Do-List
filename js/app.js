@@ -13,7 +13,7 @@ window.onload = () => {
 function addItem(e) {
 	e.preventDefault();
 
-	if (submit.value != "Submit") {
+	if (submit.value != "Add Task") {
 		console.log("Hello");
 
 		editItem.target.parentNode.childNodes[0].data
